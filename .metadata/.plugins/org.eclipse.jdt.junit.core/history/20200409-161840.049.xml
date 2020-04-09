@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Runner" project="demoblaze" tests="31" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="com.testrunner.Test_Runner" incomplete="true">
+    <testsuite name="Feature: DemoBlaze Application testing" incomplete="true">
+      <testsuite name="Scenario Outline: Login with demoblaze" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| user_3 | user1pass |" incomplete="true">
+            <testcase name="Given user launches demoblaze website" classname="| user_3 | user1pass |" incomplete="true"/>
+            <testcase name="When user click on login button" classname="| user_3 | user1pass |" incomplete="true"/>
+            <testcase name="Then user enter user_3 and user1pass and click on login" classname="| user_3 | user1pass |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: Add phone to cart" incomplete="true">
+        <testcase name="Given user click on phone" classname="Scenario: Add phone to cart" incomplete="true"/>
+        <testcase name="When user click on the desired mobile phone" classname="Scenario: Add phone to cart" incomplete="true"/>
+        <testcase name="And user clicks add to cart" classname="Scenario: Add phone to cart" incomplete="true"/>
+        <testcase name="Then click on cart" classname="Scenario: Add phone to cart" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Add laptop to cart" incomplete="true">
+        <testcase name="Given user click on laptop" classname="Scenario: Add laptop to cart" incomplete="true"/>
+        <testcase name="When user click on desired laptop" classname="Scenario: Add laptop to cart" incomplete="true"/>
+        <testcase name="And add product to cart" classname="Scenario: Add laptop to cart" incomplete="true"/>
+        <testcase name="Then navigate to cart page" classname="Scenario: Add laptop to cart" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Add Monitor to cart" incomplete="true">
+        <testcase name="Given user click on monitor" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+        <testcase name="When user click on dersired monitor" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+        <testcase name="And add desired monitor to cart" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+        <testcase name="Then succeed to cart" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Purchase a product" incomplete="true">
+        <testcase name="Given user click on desired product" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="When user click on add to cart" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And move to cart page" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And click on place order" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And fill the details" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And click on purchase" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="Then click on ok" classname="Scenario: Purchase a product" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: Signup" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| user_6 | user1pass |" incomplete="true">
+            <testcase name="Given user clicks on signup button" classname="| user_6 | user1pass |" incomplete="true"/>
+            <testcase name="Then user enters user_6 and user1pass" classname="| user_6 | user1pass |" incomplete="true"/>
+            <testcase name="Then click on signup" classname="| user_6 | user1pass |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| user_7 | user1pass |" incomplete="true">
+            <testcase name="Given user clicks on signup button" classname="| user_7 | user1pass |" incomplete="true"/>
+            <testcase name="Then user enters user_7 and user1pass" classname="| user_7 | user1pass |" incomplete="true"/>
+            <testcase name="Then click on signup" classname="| user_7 | user1pass |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: No of mobiles" incomplete="true">
+        <testcase name="Given user launch demoblaze application" classname="Scenario: No of mobiles" incomplete="true"/>
+        <testcase name="And user check the number of products in a webpage" classname="Scenario: No of mobiles" incomplete="true"/>
+        <testcase name="Then print the number of products in a webpage" classname="Scenario: No of mobiles" incomplete="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

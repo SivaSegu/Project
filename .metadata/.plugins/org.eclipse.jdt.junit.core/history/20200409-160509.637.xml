@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Runner" project="demoblaze" tests="31" started="31" failures="0" errors="0" ignored="0">
+  <testsuite name="com.testrunner.Test_Runner" time="152.401">
+    <testsuite name="Feature: DemoBlaze Application testing" time="152.401">
+      <testsuite name="Scenario Outline: Login with demoblaze" time="10.762">
+        <testsuite name="Examples:" time="10.762">
+          <testsuite name="| user_3 | user1pass |" time="10.762">
+            <testcase name="Given user launches demoblaze website" classname="| user_3 | user1pass |" time="0.077"/>
+            <testcase name="When user click on login button" classname="| user_3 | user1pass |" time="10.682"/>
+            <testcase name="Then user enter user_3 and user1pass and click on login" classname="| user_3 | user1pass |" time="0.003"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: Add phone to cart" time="7.152">
+        <testcase name="Given user click on phone" classname="Scenario: Add phone to cart" time="1.546"/>
+        <testcase name="When user click on the desired mobile phone" classname="Scenario: Add phone to cart" time="1.837"/>
+        <testcase name="And user clicks add to cart" classname="Scenario: Add phone to cart" time="3.767"/>
+        <testcase name="Then click on cart" classname="Scenario: Add phone to cart" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Add laptop to cart" time="8.775">
+        <testcase name="Given user click on laptop" classname="Scenario: Add laptop to cart" time="1.653"/>
+        <testcase name="When user click on desired laptop" classname="Scenario: Add laptop to cart" time="3.779"/>
+        <testcase name="And add product to cart" classname="Scenario: Add laptop to cart" time="3.341"/>
+        <testcase name="Then navigate to cart page" classname="Scenario: Add laptop to cart" time="0.002"/>
+      </testsuite>
+      <testsuite name="Scenario: Add Monitor to cart" time="9.176">
+        <testcase name="Given user click on monitor" classname="Scenario: Add Monitor to cart" time="1.592"/>
+        <testcase name="When user click on dersired monitor" classname="Scenario: Add Monitor to cart" time="4.261"/>
+        <testcase name="And add desired monitor to cart" classname="Scenario: Add Monitor to cart" time="3.32"/>
+        <testcase name="Then succeed to cart" classname="Scenario: Add Monitor to cart" time="0.003"/>
+      </testsuite>
+      <testsuite name="Scenario: Purchase a product" time="4.988">
+        <testcase name="Given user click on desired product" classname="Scenario: Purchase a product" time="1.955"/>
+        <testcase name="When user click on add to cart" classname="Scenario: Purchase a product" time="0.677"/>
+        <testcase name="And move to cart page" classname="Scenario: Purchase a product" time="1.092"/>
+        <testcase name="And click on place order" classname="Scenario: Purchase a product" time="0.698"/>
+        <testcase name="And fill the details" classname="Scenario: Purchase a product" time="0.076"/>
+        <testcase name="And click on purchase" classname="Scenario: Purchase a product" time="0.486"/>
+        <testcase name="Then click on ok" classname="Scenario: Purchase a product" time="0.004"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: Signup" time="35.681">
+        <testsuite name="Examples:" time="35.681">
+          <testsuite name="| user_6 | user1pass |" time="12.359">
+            <testcase name="Given user clicks on signup button" classname="| user_6 | user1pass |" time="3.194"/>
+            <testcase name="Then user enters user_6 and user1pass" classname="| user_6 | user1pass |" time="9.164"/>
+            <testcase name="Then click on signup" classname="| user_6 | user1pass |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| user_7 | user1pass |" time="12.358">
+            <testcase name="Given user clicks on signup button" classname="| user_7 | user1pass |" time="3.154"/>
+            <testcase name="Then user enters user_7 and user1pass" classname="| user_7 | user1pass |" time="9.203"/>
+            <testcase name="Then click on signup" classname="| user_7 | user1pass |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: No of mobiles" time="9.669">
+        <testcase name="Given user launch demoblaze application" classname="Scenario: No of mobiles" time="0.025"/>
+        <testcase name="And user check the number of products in a webpage" classname="Scenario: No of mobiles" time="9.1"/>
+        <testcase name="Then print the number of products in a webpage" classname="Scenario: No of mobiles" time="0.544"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

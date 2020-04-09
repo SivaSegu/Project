@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Runner" project="demoblaze" tests="31" started="7" failures="0" errors="4" ignored="5">
+  <testsuite name="com.testrunner.Test_Runner" incomplete="true">
+    <testsuite name="Feature: DemoBlaze Application testing" incomplete="true">
+      <testsuite name="Scenario Outline: Login with demoblaze" time="0.111">
+        <testsuite name="Examples:" time="0.111">
+          <testsuite name="| user_3 | user1pass |" time="0.076" incomplete="true">
+            <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;
+	at wrapperclass.BaseClass.launchApplication(BaseClass.java:23)&#13;
+	at com.stepdefinition.login.Login_TC.user_launches_demoblaze_website(Login_TC.java:26)&#13;
+	at ✽.Given user launches demoblaze website(demoBlaze.feature:7)&#13;
+&#13;
+</error>
+            <testcase name="Given user launches demoblaze website" classname="| user_3 | user1pass |" time="0.074">
+              <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;
+	at wrapperclass.BaseClass.launchApplication(BaseClass.java:23)&#13;
+	at com.stepdefinition.login.Login_TC.user_launches_demoblaze_website(Login_TC.java:26)&#13;
+	at ✽.Given user launches demoblaze website(demoBlaze.feature:7)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When user click on login button" classname="| user_3 | user1pass |" time="0.003" ignored="true"/>
+            <testcase name="Then user enter user_3 and user1pass and click on login" classname="| user_3 | user1pass |" time="0.001" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: Add phone to cart" time="0.001" incomplete="true">
+        <error>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIVATEJASEGU', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\segus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b0cf14bd1474d6e02437196f5f83c52&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;
+	at wrapperclass.BaseClass.launchSite(BaseClass.java:32)&#13;
+	at com.stepdefinition.phone.Phone_TC.user_click_on_phone(Phone_TC.java:32)&#13;
+	at ✽.Given user click on phone(demoBlaze.feature:20)&#13;
+&#13;
+</error>
+        <testcase name="Given user click on phone" classname="Scenario: Add phone to cart" time="0.0">
+          <error>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIVATEJASEGU', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\segus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b0cf14bd1474d6e02437196f5f83c52&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;
+	at wrapperclass.BaseClass.launchSite(BaseClass.java:32)&#13;
+	at com.stepdefinition.phone.Phone_TC.user_click_on_phone(Phone_TC.java:32)&#13;
+	at ✽.Given user click on phone(demoBlaze.feature:20)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When user click on the desired mobile phone" classname="Scenario: Add phone to cart" time="0.003" ignored="true"/>
+        <testcase name="And user clicks add to cart" classname="Scenario: Add phone to cart" time="0.002" ignored="true"/>
+        <testcase name="Then click on cart" classname="Scenario: Add phone to cart" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Add laptop to cart" incomplete="true">
+        <testcase name="Given user click on laptop" classname="Scenario: Add laptop to cart" incomplete="true"/>
+        <testcase name="When user click on desired laptop" classname="Scenario: Add laptop to cart" incomplete="true"/>
+        <testcase name="And add product to cart" classname="Scenario: Add laptop to cart" incomplete="true"/>
+        <testcase name="Then navigate to cart page" classname="Scenario: Add laptop to cart" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Add Monitor to cart" incomplete="true">
+        <testcase name="Given user click on monitor" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+        <testcase name="When user click on dersired monitor" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+        <testcase name="And add desired monitor to cart" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+        <testcase name="Then succeed to cart" classname="Scenario: Add Monitor to cart" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Purchase a product" incomplete="true">
+        <testcase name="Given user click on desired product" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="When user click on add to cart" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And move to cart page" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And click on place order" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And fill the details" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="And click on purchase" classname="Scenario: Purchase a product" incomplete="true"/>
+        <testcase name="Then click on ok" classname="Scenario: Purchase a product" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: Signup" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| user_6 | user1pass |" incomplete="true">
+            <testcase name="Given user clicks on signup button" classname="| user_6 | user1pass |" incomplete="true"/>
+            <testcase name="Then user enters user_6 and user1pass" classname="| user_6 | user1pass |" incomplete="true"/>
+            <testcase name="Then click on signup" classname="| user_6 | user1pass |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| user_7 | user1pass |" incomplete="true">
+            <testcase name="Given user clicks on signup button" classname="| user_7 | user1pass |" incomplete="true"/>
+            <testcase name="Then user enters user_7 and user1pass" classname="| user_7 | user1pass |" incomplete="true"/>
+            <testcase name="Then click on signup" classname="| user_7 | user1pass |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: No of mobiles" incomplete="true">
+        <testcase name="Given user launch demoblaze application" classname="Scenario: No of mobiles" incomplete="true"/>
+        <testcase name="And user check the number of products in a webpage" classname="Scenario: No of mobiles" incomplete="true"/>
+        <testcase name="Then print the number of products in a webpage" classname="Scenario: No of mobiles" incomplete="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
